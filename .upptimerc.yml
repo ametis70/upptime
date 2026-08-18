@@ -2,19 +2,32 @@
 owner: ametis70 # Your GitHub organization or username, where this repository lives
 repo: upptime # The name of this repository
 
+secrets:
+  - HOMELAB_PING
+  - HOMELAB_HTTPS
+  - TELEGRAM_BOT_TOKEN
+  - TELEGRAM_CHAT_ID
+
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Homelab (TCP Ping)
+    url: $HOMELAB_PING
+    check: "tcp-ping"
+
+  - name: Homelab (Globalping)
+    url: $HOMELAB_PING
+    check: tcp-ping
+    type: globalping
+    location: Argentina
+
+  - name: Homelab (HTTPS)
+    url: $HOMELAB_HTTPS
+
+notifications:
+  - type: telegram
+    bot-token: $TELEGRAM_BOT_TOKEN
+    chat-id: $TELEGRAM_CHAT_ID
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   baseUrl: /upptime
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
@@ -25,6 +38,3 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
