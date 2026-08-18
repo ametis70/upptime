@@ -3,23 +3,23 @@ owner: ametis70 # Your GitHub organization or username, where this repository li
 repo: upptime # The name of this repository
 
 secrets:
-  - HOMELAB_PING
-  - HOMELAB_HTTPS
+  - UPTIME_DOMAIN
+  - UPTIME_HTTPS
   - TELEGRAM_BOT_TOKEN
   - TELEGRAM_CHAT_ID
 
 sites:
   - name: Homelab (TCP Ping)
-    url: $HOMELAB_PING
+    url: $UPTIME_DOMAIN
     check: "tcp-ping"
 
   - name: Homelab (Globalping)
-    url: $HOMELAB_PING
+    url: $UPTIME_DOMAIN
     type: globalping
     location: Argentina
 
   - name: Homelab (HTTPS)
-    url: $HOMELAB_HTTPS
+    url: $UPTIME_HTTPS
 
 notifications:
   - type: telegram
