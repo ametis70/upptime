@@ -1,6 +1,6 @@
 # [📈 Live Status](https://ametis70.github.io/upptime): <!--live status--> **🟧 Partial outage**
 
-This repository contains the open-source uptime monitor and status page for [Ian Mancini](https://ianmancini.com.ar), powered by [Upptime](https://github.com/upptime/upptime).
+This repository contains the open-source uptime monitor and status page for [ametis70](https://github.com/ametis70), powered by [Upptime](https://github.com/upptime/upptime).
 
 [![Uptime CI](https://github.com/ametis70/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/ametis70/upptime/actions/workflows/uptime.yml)
 [![Response Time CI](https://github.com/ametis70/upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/ametis70/upptime/actions/workflows/response-time.yml)
