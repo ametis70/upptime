@@ -15,9 +15,9 @@ sites:
 
   - name: Homelab (Globalping)
     url: $HOMELAB_PING
-    check: tcp-ping
+    check: "tcp-ping"
     type: globalping
-    location: Argentina
+    location: argentina
 
   - name: Homelab (HTTPS)
     url: $HOMELAB_HTTPS
