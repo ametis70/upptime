@@ -4,19 +4,22 @@ repo: upptime
 secrets:
   - UPTIME_DOMAIN
   - UPTIME_HTTPS
+  - NOTIFICATION_TELEGRAM
+  - NOTIFICATION_TELEGRAM_BOT_KEY
+  - NOTIFICATION_TELEGRAM_CHAT_ID
 
 sites:
-  - name: Homelab (TCP Ping)
+  - name: Homelab
     url: $UPTIME_DOMAIN
     check: "tcp-ping"
 
-  - name: Homelab (Globalping)
-    url: $UPTIME_DOMAIN
-    type: globalping
-    location: Argentina
+  # - name: Homelab (Globalping)
+  #   url: $UPTIME_DOMAIN
+  #   type: globalping
+  #   location: Argentina
 
-  - name: Homelab (HTTPS)
-    url: $UPTIME_HTTPS
+  # - name: Homelab (HTTPS)
+  #   url: $UPTIME_HTTPS
 
 status-website:
   baseUrl: /upptime
