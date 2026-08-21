@@ -4,20 +4,20 @@
     "url": "$UPTIME_DOMAIN",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "homelab",
-    "status": "down",
-    "uptime": "96.76%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "96.76%",
-    "uptimeMonth": "96.76%",
-    "uptimeYear": "96.76%",
-    "time": 177,
-    "timeDay": 177,
-    "timeWeek": 177,
-    "timeMonth": 177,
-    "timeYear": 177,
+    "status": "up",
+    "uptime": "95.72%",
+    "uptimeDay": "96.81%",
+    "uptimeWeek": "95.72%",
+    "uptimeMonth": "95.72%",
+    "uptimeYear": "95.72%",
+    "time": 173,
+    "timeDay": 158,
+    "timeWeek": 173,
+    "timeMonth": 173,
+    "timeYear": 173,
     "dailyMinutesDown": {
       "2026-08-20": 136,
-      "2026-08-21": 0
+      "2026-08-21": 46
     }
   }
 ]
