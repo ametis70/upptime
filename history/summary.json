@@ -5,15 +5,15 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "homelab",
     "status": "down",
-    "uptime": "90.77%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "90.77%",
+    "uptime": "90.45%",
+    "uptimeDay": "76.43%",
+    "uptimeWeek": "96.63%",
+    "uptimeMonth": "99.23%",
+    "uptimeYear": "90.45%",
     "time": 169,
-    "timeDay": 173,
-    "timeWeek": 170,
-    "timeMonth": 170,
+    "timeDay": 0,
+    "timeWeek": 168,
+    "timeMonth": 169,
     "timeYear": 169,
     "dailyMinutesDown": {
       "2026-08-20": 136,
@@ -24,7 +24,9 @@
       "2026-09-07": 1440,
       "2026-09-06": 1440,
       "2026-09-05": 1440,
-      "2026-09-04": 184
+      "2026-09-04": 184,
+      "2026-10-24": 201,
+      "2026-10-23": 138
     }
   }
 ]
